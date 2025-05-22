@@ -15,3 +15,4 @@ EXPOSE 9091
 
 # Wait for MySQL, then start Spring Boot
 ENTRYPOINT ["/wait-for-it.sh", "mysql-db:3306", "--", "java", "-jar", "/app/app.jar"]
+ 
