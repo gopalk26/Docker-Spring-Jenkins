@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 public class User {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY) // Use IDENTITY for auto-generatio
+	@GeneratedValue(strategy = GenerationType.IDENTITY) 
 	private Long id;
 	private String name;
 	private String email;
